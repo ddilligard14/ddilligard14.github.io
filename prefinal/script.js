@@ -14,7 +14,7 @@ function showAcademy () {
 
 var btn2= document.getElementById("btn2")
 
-btn2.onmousedown = newTabAcademy;
+btn2.onmousedown = m;
 
 function newTabAcademy(){
     window.open (ccUrl);
