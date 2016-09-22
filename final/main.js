@@ -7,6 +7,4 @@ function myCodecademy(){
     window.open (ccUrl);
 }
 
-alert("Hello Deon"){
-    
-}
+alert("Hello Deon");
