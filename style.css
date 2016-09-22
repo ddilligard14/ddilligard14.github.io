@@ -1,0 +1,141 @@
+
+#load_screen{
+        background: white;
+        opacity: 1;
+        position: fixed;
+            z-index: 10;
+        top: 0px;
+        width: 100%;
+        height: 1600px;
+        
+
+}
+#load_screen > #loading{
+        color: #FFF;
+        width: 120px;
+        height: 24px;
+        margin: 300px auto;
+        page-break-after: 20s
+}
+
+.loader {
+  border: 35px solid white;
+  border-top: 35px dotted white;
+  border-top: 35px dotted white;
+  border-right: 35px dotted lightgrey;
+  border-right: 35px dotted lightgrey;
+  border-bottom: 35px dotted white;
+  border-bottom: 35px dotted white;
+  border-left: 35px dotted lightgrey;
+  border-left: 35px dotted lightgrey;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 120ms linear infinite;
+}
+#loading{
+    color: black;
+    font-size: medium;
+    text-align: center;
+    
+}
+  
+@keyframes spin {
+    100% { transform: rotate(-360deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+
+#holder{
+    position: fixed;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url(img/Forest.jpg) no-repeat center; 
+    background-size: cover;
+    background-image: visible;
+    opacity: 0.4;
+    z-index: 1;
+}
+#header{
+    position: absolute;
+    opacity: 1;
+    background: grey;
+    color: white;
+    height: 5%, 5%;
+    height-top: 5%;
+    top: -2%
+}
+
+#nav {
+  position: right;
+  height:1px;
+  width:20px;
+  margin:0 auto;
+}
+/* Dropdown Button */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+#nav img {
+  position: relative;
+   top: 0px;
+   right: -586px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  z-index: 15%;
+    
+}
+
+
+
+#cf2 img.transparent {
+opacity:1;
+}
+#cf_onclick {
