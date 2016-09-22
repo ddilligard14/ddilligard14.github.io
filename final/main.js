@@ -9,5 +9,8 @@ function myCodecademy(){
     window.open (ccUrl);
 }
 
+var btnGreet= getElementById("btnGreet")
+function btnGreet(){
+    alert("Hello Deon");
+}
 
-alert("Hello Deon");
