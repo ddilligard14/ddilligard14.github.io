@@ -5,7 +5,7 @@ var btnAcademy= document.getElementById("btnAcademy");
 
 btnAcademy.onmousedown = myCodecademy;
 
-function btnAcademy(){
+function myCodecademy (){
     window.open (ccUrl);
 }
 
