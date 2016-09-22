@@ -1,7 +1,11 @@
-var btnAcademy= document.getElementById("btnAcademy");
-btnAcademy.onmousedown = btnAcademy;
+var myCodecademy= document.getElementById("btnGreet");
+var ccUrl= "https://www.codecademy.com/ddilligard14";
 
+myCodecademy.onmousedown =btnGreet;
 
+function newTabAcademy(){
+    window.open (ccUrl);
+}
 
 var btnGreet 
 function btnGreet(){
