@@ -6,3 +6,7 @@ btnAcademy.onmousedown = myCodecademy;
 function myCodecademy(){
     window.open (ccUrl);
 }
+
+alert("Hello Deon"){
+    
+}
