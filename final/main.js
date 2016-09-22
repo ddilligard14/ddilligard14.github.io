@@ -7,4 +7,6 @@ function myCodecademy(){
     window.open (ccUrl);
 }
 
-alert("Hello Deon");
+function btnGreeting() {
+    alert("Hello Deon);
+}
