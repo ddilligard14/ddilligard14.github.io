@@ -2,7 +2,7 @@ var ccUrl= "https://www.codecademy.com/ddilligard14";
 var btn= document.getElementById("btn")
 
 
-// alert ("Testing"); 
+alert ("Testing"); 
 
 btn.onmousedown = showAcademy;
 
