@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   margin: auto;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 #app{
   background-color: gray;
