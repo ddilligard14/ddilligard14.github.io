@@ -1,3 +1,12 @@
+#holder{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  overflow-x: hidden;
+}
 #app{
   background-color: gray;
   position: fixed;
@@ -30,3 +39,4 @@
 	background:url(Pictures/EltonMona.png) no-repeat center;
 	background-size: 100% 100%;
 }
+
