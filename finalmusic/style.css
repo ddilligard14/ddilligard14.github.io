@@ -45,6 +45,9 @@ body{
 
 .horizontal{
   display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
   height: 99%;
   width: 47%;
 }
