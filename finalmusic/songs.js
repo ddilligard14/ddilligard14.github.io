@@ -61,7 +61,7 @@ var songs = {
 	},
 	15:{
 		song:"The Weeknd - Starboy ft. Daft Punk",
-		picture: "star"
+		picture: "star1"
 	},
 	
 	
