@@ -59,6 +59,10 @@ var songs = {
 		song:"Drake - Childs Play",
 		picture: "Childs"
 	},
+	14:{
+		song:"The Weeknd - Starboy ft. Daft Punk",
+		picture: "star"
+	},
 	
 	
 };
